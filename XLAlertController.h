@@ -16,5 +16,5 @@ typedef void(^XLResponseSuccessBlock) (NSDictionary* response);//显示完成的
 
 //1秒消失的弹框
 +(UIAlertController *)OneSecondsalertWithTitle:(NSString *)title WithMessage :(NSString *)message WithDismissView:(XLResponseSuccessBlock*)Block;
-
+-(void)aa;
 @end
